@@ -2,12 +2,11 @@
 #include<stdio.h>
 int main()
 {
-    int weeks,year,millenniums;
+    int weeks,millenniums;
     printf("enter weeks:");
-    scanf("%d",weeks);
+    scanf("%d",&weeks);
 
-    year=weeks/52;
-    millenniums=years/1000;
+    millenniums=weeks*1000;
     printf("millenniums %d",millenniums);
     return 0;
     
