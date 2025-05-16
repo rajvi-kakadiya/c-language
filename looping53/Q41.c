@@ -1,0 +1,1 @@
+//print all ascii character with their value
